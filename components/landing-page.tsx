@@ -151,13 +151,7 @@ export default function LandingPage() {
             rel="noopener noreferrer"
             className="hover:opacity-80 transition-opacity duration-300 transform hover:scale-105"
           >
-            <Image
-              src="/itzone.png"
-              alt="IT Zone Telegram"
-              width={90}
-              height={90}
-              className="rounded-full cursor-pointer shadow-lg shadow-blue-500/20 border-2 border-blue-500/30"
-            />
+            <Image src="/itzone.png" alt="IT Zone Telegram" width={90} height={90} className="cursor-pointer" />
           </a>
         </div>
       </footer>

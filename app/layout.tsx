@@ -21,13 +21,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uz">
-      <Head>
+      <head>
         {/* ✅ Facebook domain verification meta */}
         <meta
           name="facebook-domain-verification"
           content="aj1y6z4hspaycoiexbshnxfb8wg8ys"
         />
-      </Head>
+      </head>
 
       {/* ✅ Facebook Pixel */}
       <Script id="fb-pixel" strategy="afterInteractive">

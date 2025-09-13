@@ -67,8 +67,6 @@ export default function ThankYouPage() {
             Tugmani bosgandan keyin Telegram ochiladi va "Подписаться" tugmasini bosishni unutmang!
           </p>
         </div>
-
-      
       </div>
     </div>
   )

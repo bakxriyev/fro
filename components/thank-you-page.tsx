@@ -68,37 +68,7 @@ export default function ThankYouPage() {
           </p>
         </div>
 
-        <div className="flex justify-center items-center mb-6 space-x-4">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="3"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="text-green-500 animate-bounce"
-          >
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-            <polyline points="19 12 12 19 5 12"></polyline>
-          </svg>
-        </div>
-
-          <Image
-            src="/logo.png"
-            alt="Telegram Channel"
-            width={300}
-            height={300}
-            className="w-full max-w-xs mx-auto rounded-2xl shadow-2xl"
-          />
-
-        <div className="mt-8 flex justify-center space-x-2">
-          <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
-          <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse delay-75"></div>
-          <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse delay-150"></div>
-        </div>
+      
       </div>
     </div>
   )

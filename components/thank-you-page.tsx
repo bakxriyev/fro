@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function ThankYouPage() {
   const handleJoinTelegram = () => {
-    window.open("https://t.me/+1lCveH63ywk1Njcy", "_blank")
+    window.open("https://t.me/+DLZk7SoLlm9mMWQ6", "_blank")
     setTimeout(() => {
       window.location.href = "/"
     }, 500)

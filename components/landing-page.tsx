@@ -70,12 +70,12 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div className="relative mb-8 flex justify-center -mt-4">
-            <div className="absolute inset-0 bg-gradient-radial from-blue-600/40 via-blue-500/30 to-transparent rounded-full blur-xl animate-pulse"></div>
+          <div className="flex justify-center -mt-16">
+            <div className="  animate-pulse"></div>
             <div className="relative">
-              <div className="w-80 h-96 rounded-lg shadow-2xl shadow-blue-500/20">
+              <div className="w-80 h-96  shadow-blue-500/20">
                 <Image
-                  src="/iman.png"
+                  src="/logo.png"
                   alt="Dostonjon Soyibov"
                   width={320}
                   height={384}

@@ -57,8 +57,8 @@ export default function LandingPage() {
         <div className="text-center">
           <p className="text-gray-300 text-sm mb-4">Dostonjon Soyibov bilan 3 kunlik Bepul intensiv</p>
 
-          <h1 className="text-white text-xl font-bold mb-6 leading-tigh uppercase">
-            Biznesni boshlash va rivojlantirish 
+          <h1 className="text-white text-2xl font-bold mb-6 leading-tigh uppercase">
+            Biznesni boshlash va uni rivojlantirish 
             <br />
             bo’yicha biznes intensiv
           </h1>

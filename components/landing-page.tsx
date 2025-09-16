@@ -47,7 +47,7 @@ export default function LandingPage() {
           <div className="bg-gradient-to-r from-blue-900/50 to-black/80 backdrop-blur-sm rounded-full px-6 py-3 flex items-center gap-2 border border-blue-500/50 shadow-lg shadow-blue-500/25 animate-pulse">
             <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
             <div className="text-white text-sm font-medium">
-              <div>9-sentyabr 19:00</div>
+              <div>19-sentyabr 19:00</div>
               <div>20-sentyabr 11:00</div>
               <div>21-sentyabr 11:00</div>
             </div>

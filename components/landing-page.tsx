@@ -57,10 +57,10 @@ export default function LandingPage() {
         <div className="text-center">
           <p className="text-gray-300 text-sm mb-4">Dostonjon Soyibov bilan 3 kunlik Bepul intensiv</p>
 
-          <h1 className="text-white text-2xl font-bold mb-6 leading-tight">
-            QANDAY QILIB 50$ BILAN
+          <h1 className="text-white text-xl font-bold mb-6 leading-tigh uppercase">
+            Biznesni boshlash va rivojlantirish 
             <br />
-            BIZNEZ BOSHLASH MUMKIN?
+            bo’yicha biznes intensiv
           </h1>
 
           <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg px-4 py-3 mb-6 shadow-lg shadow-blue-500/30 transform hover:scale-105 transition-all duration-300 border border-blue-400/30">

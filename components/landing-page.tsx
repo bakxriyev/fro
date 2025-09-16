@@ -84,7 +84,7 @@ export default function LandingPage() {
                 />
               </div>
 
-              <div className="absolute left-[-60px] top-32 transform -translate-y-1/2">
+              <div className="absolute left-[-20px] top-32 transform -translate-y-1/2">
                 <div className="bg-gradient-to-r from-blue-900/90 to-black/90 backdrop-blur-sm rounded-lg px-3 py-2 border border-blue-500/50 shadow-lg shadow-blue-500/30">
                   <div className="text-white text-lg font-bold font-mono">
                     {String(timeLeft.minutes).padStart(2, "0")}:{String(timeLeft.seconds).padStart(2, "0")}

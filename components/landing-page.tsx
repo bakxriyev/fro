@@ -46,7 +46,11 @@ export default function LandingPage() {
         <div className="flex justify-center mb-4">
           <div className="bg-gradient-to-r from-blue-900/50 to-black/80 backdrop-blur-sm rounded-full px-6 py-3 flex items-center gap-2 border border-blue-500/50 shadow-lg shadow-blue-500/25 animate-pulse">
             <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-white text-sm font-medium">19-20-21 sentabr | 19:00</span>
+            <div className="text-white text-sm font-medium">
+              <div>9-sentyabr 19:00</div>
+              <div>20-sentyabr 11:00</div>
+              <div>21-sentyabr 11:00</div>
+            </div>
           </div>
         </div>
 
@@ -66,21 +70,25 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div className="relative mb-4 flex justify-center">
+          <div className="relative mb-8 flex justify-center -mt-4">
             <div className="absolute inset-0 bg-gradient-radial from-blue-600/40 via-blue-500/30 to-transparent rounded-full blur-xl animate-pulse"></div>
-            <div className="relative w-80 h-96 rounded-lg shadow-2xl shadow-blue-500/20">
-              <Image
-                src="/iman.png"
-                alt="Dostonjon Soyibov"
-                width={320}
-                height={384}
-                className="w-full h-full object-cover object-top rounded-lg"
-                priority
-              />
+            <div className="relative">
+              <div className="w-80 h-96 rounded-lg shadow-2xl shadow-blue-500/20">
+                <Image
+                  src="/iman.png"
+                  alt="Dostonjon Soyibov"
+                  width={320}
+                  height={384}
+                  className="w-full h-full object-cover object-top rounded-lg"
+                  priority
+                />
+              </div>
 
-              <div className="absolute top-4 left-4 bg-gradient-to-r from-blue-900/90 to-black/90 backdrop-blur-sm rounded-lg px-4 py-2 border border-blue-500/50 shadow-lg shadow-blue-500/30">
-                <div className="text-white text-2xl font-bold font-mono">
-                  {String(timeLeft.minutes).padStart(2, "0")}:{String(timeLeft.seconds).padStart(2, "0")}
+              <div className="absolute left-[-60px] top-32 transform -translate-y-1/2">
+                <div className="bg-gradient-to-r from-blue-900/90 to-black/90 backdrop-blur-sm rounded-lg px-3 py-2 border border-blue-500/50 shadow-lg shadow-blue-500/30">
+                  <div className="text-white text-lg font-bold font-mono">
+                    {String(timeLeft.minutes).padStart(2, "0")}:{String(timeLeft.seconds).padStart(2, "0")}
+                  </div>
                 </div>
               </div>
             </div>

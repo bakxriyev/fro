@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function ThankYouPage() {
   const handleJoinTelegram = () => {
-    window.open("https://t.me/+DLZk7SoLlm9mMWQ6", "_blank")
+    window.open("https://t.me/+mXVtX1pA26Y1MzJi", "_blank")
     setTimeout(() => {
       window.location.href = "/"
     }, 500)
@@ -13,9 +13,13 @@ export default function ThankYouPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50 flex flex-col items-center justify-center p-4">
       <div className="text-center max-w-2xl w-full">
-        <h1 className="text-xl md:text-2xl font-bold mb-6 leading-tight text-gray-800">
-          Bepul 3 kunlik darsimda ishtirok etish uchun
+        <h1 className="text-xl md:text-2xl font-bold mb-4 leading-tight text-gray-800">
+          5 million so'mlik dars beriladi!
         </h1>
+
+        <h2 className="text-lg md:text-xl font-semibold mb-6 leading-tight text-gray-700">
+          Bepul 3 kunlik darsimda ishtirok etish uchun
+        </h2>
 
         <div className="mb-8 px-4">
           <p className="text-lg md:text-xl text-gray-800 mb-6 leading-relaxed">
@@ -67,6 +71,7 @@ export default function ThankYouPage() {
             Tugmani bosgandan keyin Telegram ochiladi va "Подписаться" tugmasini bosishni unutmang!
           </p>
         </div>
+
       </div>
     </div>
   )
